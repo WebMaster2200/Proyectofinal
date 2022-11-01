@@ -1,0 +1,150 @@
+*{
+    max-width: 1440px;
+    background-color: hsl(0, 0%, 98%);
+    
+    
+}
+
+@font-face {
+    font-family: Epiloge;
+    src: url(./Epilogue/Epilogue-VariableFont_wght.ttf);
+}
+
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+h2{
+    font-family: Epiloge;
+    font-weight: bold;
+    margin-left: 50px;
+    font-size:70px;
+}
+p{
+
+    display: inline;
+    font-size: 25px;
+    font-style: normal;
+    color: gray;
+}
+
+
+#hero{
+    width: 500px;
+    height: 650px;
+    position: absolute;
+    
+}
+
+section{
+    flex-direction: column-reverse;
+    font-family: Epiloge;
+    font-size: 15px;
+}
+
+.features {
+    display: inline-block;
+    position: relative;
+    border-bottom: 0px;
+    margin-left: 40px;
+  }
+  
+  .features-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+
+  .features:hover .features-content {
+    display: block;
+  }
+
+
+  .features-content p {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+    font-family: Epiloge ;
+    font-size: 12px;
+   
+  }
+  .features-content p:hover {
+    color: #FFFFFF;
+    background-color:gray ;
+    font-family: Epiloge ;
+    font-size: 12px;
+  }
+
+  #features-btn{
+    border: #FFFFFF;
+    font-family: Epiloge;
+    font-size: 15px;
+  }
+  #learn{
+    color: #000000;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-family: Epiloge;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-left: 170px;
+    margin-top: 1px;
+    
+  }
+
+  #login{
+    margin-left: 300px;
+    color: #000000;
+    border: #FFFFFF;
+    font-family: Epiloge;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+  }
+
+  #register{
+    
+ color: #000000;
+border-radius: 20px;
+font-weight: bolder;
+font-family: Epiloge;
+font-size: 20px;
+width: 200px;
+height: 50px;
+  }
+
+ .titulo{
+    margin-left: 125px;
+    width: 50%;
+    height: 300px;
+ }
+
+ .parrafo{
+    margin-left: 180px;
+    width: 500px;
+    height: 150px;
+ }
+ .imagenes{
+    width: 500px;
+    height: 25px;
+    margin-top: 100px;
+    margin-left: 180px;
+    display: flex;
+    justify-content: space-between;
+ }
+ #learn:hover{
+    background-color: black;
+    color: white;
+ }
+
+ .imagenHero{
+   justify-content: start;
+   margin-top: 100px;
+}
